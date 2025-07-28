@@ -12,7 +12,7 @@ print(f"Hobi = {Hobi}")
 print(f"alamat = {alamat}")
 
 # Data Disimpan 
-with open("biodata.txt","w") as file :
+with open("biodata.txt","a") as file :
     file.write("\n=== BIODATA ANDA ===\n")
     file.write(f"Nama = {nama}\n")
     file.write(f"Umur = {umur}\n")
